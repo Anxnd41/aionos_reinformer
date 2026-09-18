@@ -57,6 +57,11 @@ with st.sidebar:
     # Pipeline controls
     st.subheader("Pipeline")
 
+    # Check if commitments already exist
+    existing_commitments = store.load_commitments()
+    if existing_commitments:
+        st.info(f"ℹ️ {len(existing_commitments)} commitments loaded from cache")
+    
     col1, col2 = st.columns(2)
 
     with col1:
@@ -73,6 +78,7 @@ with st.sidebar:
 
                 store.save_commitments(deduplicated)
                 st.success("✓ Pipeline complete. Commitments saved.")
+                st.rerun()  # Refresh to show new data
 
     with col2:
         if st.button("🗑️ Clear Cache", use_container_width=True):
@@ -104,9 +110,71 @@ with tab_brief:
             "Click **Run Pipeline** in the sidebar to extract data."
         )
     else:
-        with st.spinner("Generating brief..."):
-            brief_text = brief.generate_brief(today=selected_date)
-            st.markdown(brief_text)
+        # Simple display without LLM (works offline)
+        # Categorize commitments manually
+        overdue = []
+        due_today = []
+        upcoming = []
+        completed = []
+        
+        for c in commitments:
+            status = dates.commitment_status(
+                deadline_iso=c.get("deadline_iso"),
+                completed=c.get("completed", False),
+                today=selected_date,
+            )
+            if status == "done":
+                completed.append(c)
+            elif status == "overdue":
+                overdue.append(c)
+            elif status == "due_today":
+                due_today.append(c)
+            elif status == "upcoming":
+                upcoming.append(c)
+        
+        # Display summary
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.metric("⚠️ Overdue", len(overdue))
+        with col2:
+            st.metric("📅 Due Today", len(due_today))
+        with col3:
+            st.metric("🔜 Upcoming", len(upcoming))
+        with col4:
+            st.metric("✅ Completed", len(completed))
+        
+        st.divider()
+        
+        # Display categories
+        if overdue:
+            st.subheader("⚠️ Overdue")
+            for c in overdue:
+                with st.expander(f"{c['title']}"):
+                    st.write(f"**Owner:** {c['owner']}")
+                    st.write(f"**Deadline:** {c.get('raw_deadline', 'N/A')}")
+                    st.write(f"**Description:** {c.get('description', 'N/A')}")
+        
+        if due_today:
+            st.subheader("📅 Due Today")
+            for c in due_today:
+                with st.expander(f"{c['title']}"):
+                    st.write(f"**Owner:** {c['owner']}")
+                    st.write(f"**Description:** {c.get('description', 'N/A')}")
+        
+        if upcoming:
+            st.subheader("🔜 Upcoming")
+            for c in upcoming:
+                with st.expander(f"{c['title']}"):
+                    st.write(f"**Owner:** {c['owner']}")
+                    st.write(f"**Deadline:** {c.get('raw_deadline', 'N/A')}")
+                    st.write(f"**Description:** {c.get('description', 'N/A')}")
+        
+        if completed:
+            st.subheader("✅ Completed")
+            for c in completed:
+                with st.expander(f"{c['title']}"):
+                    st.write(f"**Owner:** {c['owner']}")
+                    st.write(f"**Description:** {c.get('description', 'N/A')}")
 
 # --- Tab 2: Q&A ---
 with tab_qa:
@@ -126,12 +194,31 @@ with tab_qa:
         with st.chat_message("user"):
             st.markdown(question)
 
-        # Generate answer
+        # Simple keyword-based response (no LLM needed)
         with st.chat_message("assistant"):
-            with st.spinner("Thinking..."):
-                answer_text = qa.answer(question, today=selected_date)
-                st.markdown(answer_text)
-                st.session_state.chat_history.append({"role": "assistant", "content": answer_text})
+            commitments = store.load_commitments()
+            question_lower = question.lower()
+            
+            # Keyword matching
+            if "overdue" in question_lower:
+                overdue = [c for c in commitments if dates.commitment_status(
+                    c.get("deadline_iso"), c.get("completed", False), selected_date
+                ) == "overdue"]
+                answer = f"There are {len(overdue)} overdue commitments. " + (
+                    f"They are: {', '.join([c['title'] for c in overdue[:3]])}" if overdue else ""
+                )
+            elif "today" in question_lower or "due" in question_lower:
+                due_today = [c for c in commitments if dates.commitment_status(
+                    c.get("deadline_iso"), c.get("completed", False), selected_date
+                ) == "due_today"]
+                answer = f"There are {len(due_today)} commitments due today. " + (
+                    f"They are: {', '.join([c['title'] for c in due_today[:3]])}" if due_today else ""
+                )
+            else:
+                answer = f"I found {len(commitments)} total commitments. Check the Daily Brief and Raw Data tabs for details."
+            
+            st.markdown(answer)
+            st.session_state.chat_history.append({"role": "assistant", "content": answer})
 
 # --- Tab 3: Raw Data ---
 with tab_raw:
