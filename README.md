@@ -16,7 +16,6 @@ An AI-powered assistant that extracts, deduplicates, and tracks commitments from
 ### 1. Prerequisites
 
 - **Python 3.10+**
-- An OpenRouter API key from [OpenRouter](https://openrouter.ai/keys)
 
 ### 2. Install Dependencies
 
@@ -24,17 +23,8 @@ An AI-powered assistant that extracts, deduplicates, and tracks commitments from
 pip install -r requirements.txt
 ```
 
-### 3. Configure API Key
 
-```bash
-# Copy the example environment file
-cp .env.example .env
-
-# Edit .env and paste your OpenRouter API key:
-# OPENROUTER_API_KEY=your_key_here
-```
-
-### 4. Run the Pipeline (CLI)
+### 3. Run the Pipeline (CLI)
 
 Extract commitments from `data/sources.json`:
 
@@ -54,7 +44,7 @@ python run_pipeline.py --clear-cache   # Force full re-extraction
 python run_pipeline.py --today 2026-09-23  # Use a different reference date
 ```
 
-### 5. Launch the Streamlit UI
+### 4. Launch the Streamlit UI
 
 ```bash
 streamlit run app.py
