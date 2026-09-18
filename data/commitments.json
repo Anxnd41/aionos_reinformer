@@ -1,0 +1,1051 @@
+{
+  "commitments": [
+    {
+      "id": "commit-001",
+      "title": "Send Q3 campaign deck to Arjun for review",
+      "description": "Neha will complete the draft and send the Q3 campaign deck to Arjun for review.",
+      "owner": "Neha Kapoor",
+      "counterparty": "Arjun Malhotra",
+      "raw_deadline": "Thursday morning",
+      "deadline_iso": "2026-09-24T09:00:00",
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "meeting-1",
+          "source_type": "meeting_transcript",
+          "timestamp": "2026-09-21T09:00:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-002",
+      "title": "Send updated vendor list to Raghav",
+      "description": "Arjun will send the updated vendor list to Raghav.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Raghav Sethi",
+      "raw_deadline": "end of day tomorrow",
+      "deadline_iso": "2026-09-22T23:59:59",
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "meeting-1",
+          "source_type": "meeting_transcript",
+          "timestamp": "2026-09-21T09:00:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-003",
+      "title": "Pull July expense variance report",
+      "description": "Divya will pull the July expense variance report prior to Thursday's board prep.",
+      "owner": "Divya Rao",
+      "counterparty": "Arjun Malhotra",
+      "raw_deadline": "Wednesday evening",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "meeting-1",
+          "source_type": "meeting_transcript",
+          "timestamp": "2026-09-21T09:00:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-004",
+      "title": "Reconfirm client call time with Meridian Logistics",
+      "description": "Arjun will personally reconfirm the new call time with the team at Meridian Logistics after the call got pushed.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Meridian Logistics",
+      "raw_deadline": "",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "meeting-1",
+          "source_type": "meeting_transcript",
+          "timestamp": "2026-09-21T09:00:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-005",
+      "title": "Send updated vendor list",
+      "description": "Arjun Malhotra agreed to send the updated vendor list to Raghav Sethi after being delayed by board prep.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Raghav Sethi",
+      "raw_deadline": "tomorrow (Wednesday) morning",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "thread-1",
+          "source_type": "email_thread",
+          "timestamp": "2026-09-21T09:50:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-006",
+      "title": "Deliver Q3 Campaign Deck draft for review",
+      "description": "Neha Kapoor committed to preparing and attaching the Q3 Campaign Deck draft for Arjun Malhotra's review prior to their meeting.",
+      "owner": "Neha Kapoor",
+      "counterparty": "Arjun Malhotra",
+      "raw_deadline": "9:30 AM Thursday",
+      "deadline_iso": null,
+      "completed": true,
+      "sources": [
+        {
+          "source_id": "thread-2",
+          "source_type": "email_thread",
+          "timestamp": "2026-09-21T11:00:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-007",
+      "title": "Propose a new call time",
+      "description": "Priya Nair asked Arjun Malhotra to propose a new time for their bumped call.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Priya Nair",
+      "raw_deadline": "",
+      "deadline_iso": null,
+      "completed": true,
+      "sources": [
+        {
+          "source_id": "thread-3",
+          "source_type": "email_thread",
+          "timestamp": "2026-09-21T13:00:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-008",
+      "title": "Attend rescheduled call",
+      "description": "Arjun Malhotra and Priya Nair agreed to hold their rescheduled call on Wednesday at 3:00 PM.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Priya Nair",
+      "raw_deadline": "Wednesday 3:00 PM",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "thread-3",
+          "source_type": "email_thread",
+          "timestamp": "2026-09-21T13:00:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-009",
+      "title": "Deliver July expense variance report",
+      "description": "Divya Rao agreed to prepare and send the July expense variance report to Arjun Malhotra by Wednesday evening to give him time to review before Thursday board prep.",
+      "owner": "Divya Rao",
+      "counterparty": "Arjun Malhotra",
+      "raw_deadline": "Wednesday evening",
+      "deadline_iso": null,
+      "completed": true,
+      "sources": [
+        {
+          "source_id": "thread-4",
+          "source_type": "email_thread",
+          "timestamp": "2026-09-21T14:30:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-010",
+      "title": "Obtain authorized signature for the Mumbai office lease renewal",
+      "description": "The Mumbai office lease renewal requires an authorized signature before the pending deadline.",
+      "owner": "Facilities",
+      "counterparty": null,
+      "raw_deadline": "Friday, 25 September, end of day",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "thread-5",
+          "source_type": "email_thread",
+          "timestamp": "2026-09-21T10:15:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-011",
+      "title": "Confirm who is handling the Mumbai lease renewal sign-off",
+      "description": "Raghav Sethi followed up with Arjun Malhotra to confirm who is responsible for handling the Mumbai lease renewal sign-off.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Raghav Sethi",
+      "raw_deadline": "",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "thread-5",
+          "source_type": "email_thread",
+          "timestamp": "2026-09-21T10:15:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-012",
+      "title": "Provide vendor list to Raghav",
+      "description": "Get Raghav the vendor list, which was promised for today but may slip to tomorrow morning.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Raghav",
+      "raw_deadline": "today but it might slip to tomorrow morning",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "voice-1",
+          "source_type": "voice_note",
+          "timestamp": "2026-09-21T18:40:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-013",
+      "title": "Submit expense variance report",
+      "description": "Divya needs to deliver the expense variance report to Arjun Malhotra by Wednesday evening so he has time to review it before board prep.",
+      "owner": "Divya",
+      "counterparty": "Arjun Malhotra",
+      "raw_deadline": "Wednesday evening",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "voice-2",
+          "source_type": "voice_note",
+          "timestamp": "2026-09-23T08:15:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-014",
+      "title": "Lock in a time for the Meridian call with Priya",
+      "description": "Arjun Malhotra owes Priya a time for the Meridian call and needs to lock it in today.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Priya",
+      "raw_deadline": "today",
+      "deadline_iso": "2026-09-23T23:59:59",
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "voice-2",
+          "source_type": "voice_note",
+          "timestamp": "2026-09-23T08:15:00"
+        }
+      ]
+    },
+    {
+      "id": "commit-015",
+      "title": "Attend Leadership Sync",
+      "description": "Leadership Sync meeting scheduled for Monday, September 21, 2026, from 09:00 to 09:35.",
+      "owner": "Arjun Malhotra",
+      "counterparty": null,
+      "raw_deadline": "2026-09-21 09:00-09:35",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-arjun-malhotra",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-016",
+      "title": "1:1 with Neha",
+      "description": "One-on-one meeting with Neha scheduled for Monday, September 21, 2026, from 14:00 to 14:30.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Neha",
+      "raw_deadline": "2026-09-21 14:00-14:30",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-arjun-malhotra",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-017",
+      "title": "Internal Budget Review",
+      "description": "Internal Budget Review meeting scheduled for Tuesday, September 22, 2026, from 11:00 to 12:00.",
+      "owner": "Arjun Malhotra",
+      "counterparty": null,
+      "raw_deadline": "2026-09-22 11:00-12:00",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-arjun-malhotra",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-018",
+      "title": "Call with Meridian Logistics",
+      "description": "Call with Meridian Logistics scheduled for Wednesday, September 23, 2026, from 15:00 to 15:30.",
+      "owner": "Arjun Malhotra",
+      "counterparty": "Meridian Logistics",
+      "raw_deadline": "2026-09-23 15:00-15:30",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-arjun-malhotra",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-019",
+      "title": "Board Prep Session",
+      "description": "Board Prep Session scheduled for Thursday, September 24, 2026, from 09:00 to 10:00.",
+      "owner": "Arjun Malhotra",
+      "counterparty": null,
+      "raw_deadline": "2026-09-24 09:00-10:00",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-arjun-malhotra",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-020",
+      "title": "Hiring Panel — Sales Associate",
+      "description": "Hiring Panel for Sales Associate scheduled for Thursday, September 24, 2026, from 16:00 to 17:00.",
+      "owner": "Arjun Malhotra",
+      "counterparty": null,
+      "raw_deadline": "2026-09-24 16:00-17:00",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-arjun-malhotra",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-021",
+      "title": "Facilities Check-in",
+      "description": "Facilities Check-in meeting scheduled for Friday, September 25, 2026, from 10:00 to 10:30.",
+      "owner": "Arjun Malhotra",
+      "counterparty": null,
+      "raw_deadline": "2026-09-25 10:00-10:30",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-arjun-malhotra",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-022",
+      "title": "1:1 with Arjun",
+      "description": "Attend scheduled 1:1 meeting with Arjun.",
+      "owner": "Neha Kapoor",
+      "counterparty": "Arjun",
+      "raw_deadline": "2026-09-21 14:00-14:30",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-neha-kapoor",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-023",
+      "title": "Campaign Vendor Call",
+      "description": "Attend scheduled Campaign Vendor Call.",
+      "owner": "Neha Kapoor",
+      "counterparty": "Campaign Vendor",
+      "raw_deadline": "2026-09-22 13:00-14:00",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-neha-kapoor",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-024",
+      "title": "Deck Prep",
+      "description": "Prepare deck during scheduled focus time.",
+      "owner": "Neha Kapoor",
+      "counterparty": null,
+      "raw_deadline": "2026-09-23 10:00-10:30",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-neha-kapoor",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-025",
+      "title": "Deck Review with Arjun",
+      "description": "Attend scheduled Deck Review meeting with Arjun.",
+      "owner": "Neha Kapoor",
+      "counterparty": "Arjun",
+      "raw_deadline": "2026-09-24 09:30-10:00",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-neha-kapoor",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-026",
+      "title": "Budget Prep",
+      "description": "Budget Prep session scheduled on Divya Rao's calendar for 2026-09-21 from 14:30 to 15:00.",
+      "owner": "Divya Rao",
+      "counterparty": null,
+      "raw_deadline": "2026-09-21 14:30-15:00",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-divya-rao",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-027",
+      "title": "Quick Call with Arjun",
+      "description": "Quick Call with Arjun scheduled on Divya Rao's calendar for 2026-09-22 from 09:00 to 09:15.",
+      "owner": "Divya Rao",
+      "counterparty": "Arjun",
+      "raw_deadline": "2026-09-22 09:00-09:15",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-divya-rao",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-028",
+      "title": "Internal Budget Review",
+      "description": "Internal Budget Review session scheduled on Divya Rao's calendar for 2026-09-22 from 11:00 to 12:00.",
+      "owner": "Divya Rao",
+      "counterparty": null,
+      "raw_deadline": "2026-09-22 11:00-12:00",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-divya-rao",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "commit-029",
+      "title": "Board Prep Session",
+      "description": "Board Prep Session scheduled on Divya Rao's calendar for 2026-09-24 from 09:00 to 10:00.",
+      "owner": "Divya Rao",
+      "counterparty": null,
+      "raw_deadline": "2026-09-24 09:00-10:00",
+      "deadline_iso": null,
+      "completed": false,
+      "sources": [
+        {
+          "source_id": "calendar-divya-rao",
+          "source_type": "calendar",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    }
+  ],
+  "extraction_cache": {
+    "meeting-1": {
+      "hash": "dffb2e3a8ece13de",
+      "commitments": [
+        {
+          "id": "meeting-1_0",
+          "title": "Send Q3 campaign deck to Arjun for review",
+          "description": "Neha will complete the draft and send the Q3 campaign deck to Arjun for review.",
+          "owner": "Neha Kapoor",
+          "counterparty": "Arjun Malhotra",
+          "raw_deadline": "Thursday morning",
+          "deadline_iso": "2026-09-24T09:00:00",
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "meeting-1",
+              "source_type": "meeting_transcript",
+              "timestamp": "2026-09-21T09:00:00"
+            }
+          ]
+        },
+        {
+          "id": "meeting-1_1",
+          "title": "Send updated vendor list to Raghav",
+          "description": "Arjun will send the updated vendor list to Raghav.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Raghav Sethi",
+          "raw_deadline": "end of day tomorrow",
+          "deadline_iso": "2026-09-22T23:59:59",
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "meeting-1",
+              "source_type": "meeting_transcript",
+              "timestamp": "2026-09-21T09:00:00"
+            }
+          ]
+        },
+        {
+          "id": "meeting-1_2",
+          "title": "Pull July expense variance report",
+          "description": "Divya will pull the July expense variance report prior to Thursday's board prep.",
+          "owner": "Divya Rao",
+          "counterparty": "Arjun Malhotra",
+          "raw_deadline": "Wednesday evening",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "meeting-1",
+              "source_type": "meeting_transcript",
+              "timestamp": "2026-09-21T09:00:00"
+            }
+          ]
+        },
+        {
+          "id": "meeting-1_3",
+          "title": "Reconfirm client call time with Meridian Logistics",
+          "description": "Arjun will personally reconfirm the new call time with the team at Meridian Logistics after the call got pushed.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Meridian Logistics",
+          "raw_deadline": "",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "meeting-1",
+              "source_type": "meeting_transcript",
+              "timestamp": "2026-09-21T09:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    "thread-1": {
+      "hash": "a5b409c0c6b13a61",
+      "commitments": [
+        {
+          "id": "thread-1_0",
+          "title": "Send updated vendor list",
+          "description": "Arjun Malhotra agreed to send the updated vendor list to Raghav Sethi after being delayed by board prep.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Raghav Sethi",
+          "raw_deadline": "tomorrow (Wednesday) morning",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "thread-1",
+              "source_type": "email_thread",
+              "timestamp": "2026-09-21T09:50:00"
+            }
+          ]
+        }
+      ]
+    },
+    "thread-3": {
+      "hash": "f859f2a3f4ab0c91",
+      "commitments": [
+        {
+          "id": "thread-3_0",
+          "title": "Propose a new call time",
+          "description": "Priya Nair asked Arjun Malhotra to propose a new time for their bumped call.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Priya Nair",
+          "raw_deadline": "",
+          "deadline_iso": null,
+          "completed": true,
+          "sources": [
+            {
+              "source_id": "thread-3",
+              "source_type": "email_thread",
+              "timestamp": "2026-09-21T13:00:00"
+            }
+          ]
+        },
+        {
+          "id": "thread-3_1",
+          "title": "Attend rescheduled call",
+          "description": "Arjun Malhotra and Priya Nair agreed to hold their rescheduled call on Wednesday at 3:00 PM.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Priya Nair",
+          "raw_deadline": "Wednesday 3:00 PM",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "thread-3",
+              "source_type": "email_thread",
+              "timestamp": "2026-09-21T13:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    "thread-4": {
+      "hash": "45fcd6703c046bb6",
+      "commitments": [
+        {
+          "id": "thread-4_0",
+          "title": "Deliver July expense variance report",
+          "description": "Divya Rao agreed to prepare and send the July expense variance report to Arjun Malhotra by Wednesday evening to give him time to review before Thursday board prep.",
+          "owner": "Divya Rao",
+          "counterparty": "Arjun Malhotra",
+          "raw_deadline": "Wednesday evening",
+          "deadline_iso": null,
+          "completed": true,
+          "sources": [
+            {
+              "source_id": "thread-4",
+              "source_type": "email_thread",
+              "timestamp": "2026-09-21T14:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    "thread-5": {
+      "hash": "1db7a5ee66bb9a74",
+      "commitments": [
+        {
+          "id": "thread-5_0",
+          "title": "Obtain authorized signature for the Mumbai office lease renewal",
+          "description": "The Mumbai office lease renewal requires an authorized signature before the pending deadline.",
+          "owner": "Facilities",
+          "counterparty": null,
+          "raw_deadline": "Friday, 25 September, end of day",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "thread-5",
+              "source_type": "email_thread",
+              "timestamp": "2026-09-21T10:15:00"
+            }
+          ]
+        },
+        {
+          "id": "thread-5_1",
+          "title": "Confirm who is handling the Mumbai lease renewal sign-off",
+          "description": "Raghav Sethi followed up with Arjun Malhotra to confirm who is responsible for handling the Mumbai lease renewal sign-off.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Raghav Sethi",
+          "raw_deadline": "",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "thread-5",
+              "source_type": "email_thread",
+              "timestamp": "2026-09-21T10:15:00"
+            }
+          ]
+        }
+      ]
+    },
+    "calendar-neha-kapoor": {
+      "hash": "8e38ba432a51c8bd",
+      "commitments": [
+        {
+          "id": "calendar-neha-kapoor_0",
+          "title": "1:1 with Arjun",
+          "description": "Attend scheduled 1:1 meeting with Arjun.",
+          "owner": "Neha Kapoor",
+          "counterparty": "Arjun",
+          "raw_deadline": "2026-09-21 14:00-14:30",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-neha-kapoor",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-neha-kapoor_1",
+          "title": "Campaign Vendor Call",
+          "description": "Attend scheduled Campaign Vendor Call.",
+          "owner": "Neha Kapoor",
+          "counterparty": "Campaign Vendor",
+          "raw_deadline": "2026-09-22 13:00-14:00",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-neha-kapoor",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-neha-kapoor_2",
+          "title": "Deck Prep",
+          "description": "Prepare deck during scheduled focus time.",
+          "owner": "Neha Kapoor",
+          "counterparty": null,
+          "raw_deadline": "2026-09-23 10:00-10:30",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-neha-kapoor",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-neha-kapoor_3",
+          "title": "Deck Review with Arjun",
+          "description": "Attend scheduled Deck Review meeting with Arjun.",
+          "owner": "Neha Kapoor",
+          "counterparty": "Arjun",
+          "raw_deadline": "2026-09-24 09:30-10:00",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-neha-kapoor",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        }
+      ]
+    },
+    "calendar-raghav-sethi": {
+      "hash": "bb6996f118c42ffd",
+      "commitments": []
+    },
+    "calendar-divya-rao": {
+      "hash": "081a39ae3e08ed01",
+      "commitments": [
+        {
+          "id": "calendar-divya-rao_0",
+          "title": "Budget Prep",
+          "description": "Budget Prep session scheduled on Divya Rao's calendar for 2026-09-21 from 14:30 to 15:00.",
+          "owner": "Divya Rao",
+          "counterparty": null,
+          "raw_deadline": "2026-09-21 14:30-15:00",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-divya-rao",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-divya-rao_1",
+          "title": "Quick Call with Arjun",
+          "description": "Quick Call with Arjun scheduled on Divya Rao's calendar for 2026-09-22 from 09:00 to 09:15.",
+          "owner": "Divya Rao",
+          "counterparty": "Arjun",
+          "raw_deadline": "2026-09-22 09:00-09:15",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-divya-rao",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-divya-rao_2",
+          "title": "Internal Budget Review",
+          "description": "Internal Budget Review session scheduled on Divya Rao's calendar for 2026-09-22 from 11:00 to 12:00.",
+          "owner": "Divya Rao",
+          "counterparty": null,
+          "raw_deadline": "2026-09-22 11:00-12:00",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-divya-rao",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-divya-rao_3",
+          "title": "Board Prep Session",
+          "description": "Board Prep Session scheduled on Divya Rao's calendar for 2026-09-24 from 09:00 to 10:00.",
+          "owner": "Divya Rao",
+          "counterparty": null,
+          "raw_deadline": "2026-09-24 09:00-10:00",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-divya-rao",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        }
+      ]
+    },
+    "thread-2": {
+      "hash": "8c1cf36e93d899e1",
+      "commitments": [
+        {
+          "id": "thread-2_0",
+          "title": "Deliver Q3 Campaign Deck draft for review",
+          "description": "Neha Kapoor committed to preparing and attaching the Q3 Campaign Deck draft for Arjun Malhotra's review prior to their meeting.",
+          "owner": "Neha Kapoor",
+          "counterparty": "Arjun Malhotra",
+          "raw_deadline": "9:30 AM Thursday",
+          "deadline_iso": null,
+          "completed": true,
+          "sources": [
+            {
+              "source_id": "thread-2",
+              "source_type": "email_thread",
+              "timestamp": "2026-09-21T11:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    "voice-1": {
+      "hash": "7cfe8d6ba5d50214",
+      "commitments": [
+        {
+          "id": "voice-1_0",
+          "title": "Provide vendor list to Raghav",
+          "description": "Get Raghav the vendor list, which was promised for today but may slip to tomorrow morning.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Raghav",
+          "raw_deadline": "today but it might slip to tomorrow morning",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "voice-1",
+              "source_type": "voice_note",
+              "timestamp": "2026-09-21T18:40:00"
+            }
+          ]
+        }
+      ]
+    },
+    "voice-2": {
+      "hash": "d128911f2b53655f",
+      "commitments": [
+        {
+          "id": "voice-2_0",
+          "title": "Submit expense variance report",
+          "description": "Divya needs to deliver the expense variance report to Arjun Malhotra by Wednesday evening so he has time to review it before board prep.",
+          "owner": "Divya",
+          "counterparty": "Arjun Malhotra",
+          "raw_deadline": "Wednesday evening",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "voice-2",
+              "source_type": "voice_note",
+              "timestamp": "2026-09-23T08:15:00"
+            }
+          ]
+        },
+        {
+          "id": "voice-2_1",
+          "title": "Lock in a time for the Meridian call with Priya",
+          "description": "Arjun Malhotra owes Priya a time for the Meridian call and needs to lock it in today.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Priya",
+          "raw_deadline": "today",
+          "deadline_iso": "2026-09-23T23:59:59",
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "voice-2",
+              "source_type": "voice_note",
+              "timestamp": "2026-09-23T08:15:00"
+            }
+          ]
+        }
+      ]
+    },
+    "calendar-arjun-malhotra": {
+      "hash": "1cfc9033a60ede20",
+      "commitments": [
+        {
+          "id": "calendar-arjun-malhotra_0",
+          "title": "Attend Leadership Sync",
+          "description": "Leadership Sync meeting scheduled for Monday, September 21, 2026, from 09:00 to 09:35.",
+          "owner": "Arjun Malhotra",
+          "counterparty": null,
+          "raw_deadline": "2026-09-21 09:00-09:35",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-arjun-malhotra",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-arjun-malhotra_1",
+          "title": "1:1 with Neha",
+          "description": "One-on-one meeting with Neha scheduled for Monday, September 21, 2026, from 14:00 to 14:30.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Neha",
+          "raw_deadline": "2026-09-21 14:00-14:30",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-arjun-malhotra",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-arjun-malhotra_2",
+          "title": "Internal Budget Review",
+          "description": "Internal Budget Review meeting scheduled for Tuesday, September 22, 2026, from 11:00 to 12:00.",
+          "owner": "Arjun Malhotra",
+          "counterparty": null,
+          "raw_deadline": "2026-09-22 11:00-12:00",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-arjun-malhotra",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-arjun-malhotra_3",
+          "title": "Call with Meridian Logistics",
+          "description": "Call with Meridian Logistics scheduled for Wednesday, September 23, 2026, from 15:00 to 15:30.",
+          "owner": "Arjun Malhotra",
+          "counterparty": "Meridian Logistics",
+          "raw_deadline": "2026-09-23 15:00-15:30",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-arjun-malhotra",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-arjun-malhotra_4",
+          "title": "Board Prep Session",
+          "description": "Board Prep Session scheduled for Thursday, September 24, 2026, from 09:00 to 10:00.",
+          "owner": "Arjun Malhotra",
+          "counterparty": null,
+          "raw_deadline": "2026-09-24 09:00-10:00",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-arjun-malhotra",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-arjun-malhotra_5",
+          "title": "Hiring Panel — Sales Associate",
+          "description": "Hiring Panel for Sales Associate scheduled for Thursday, September 24, 2026, from 16:00 to 17:00.",
+          "owner": "Arjun Malhotra",
+          "counterparty": null,
+          "raw_deadline": "2026-09-24 16:00-17:00",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-arjun-malhotra",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        },
+        {
+          "id": "calendar-arjun-malhotra_6",
+          "title": "Facilities Check-in",
+          "description": "Facilities Check-in meeting scheduled for Friday, September 25, 2026, from 10:00 to 10:30.",
+          "owner": "Arjun Malhotra",
+          "counterparty": null,
+          "raw_deadline": "2026-09-25 10:00-10:30",
+          "deadline_iso": null,
+          "completed": false,
+          "sources": [
+            {
+              "source_id": "calendar-arjun-malhotra",
+              "source_type": "calendar",
+              "timestamp": "2026-09-21"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
